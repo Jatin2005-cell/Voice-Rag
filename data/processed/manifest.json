@@ -1,0 +1,9 @@
+{
+  "dataset_name": "ai4bharat/MSMARCO-XI",
+  "language": "hi",
+  "source_parquet": "C:\\Users\\jatin\\.cache\\huggingface\\hub\\datasets--ai4bharat--MSMARCO-XI\\snapshots\\bf5cdc1f26e581e519018e434db14edd1b77602b\\validation\\hinval.parquet",
+  "processed_rows": 2000,
+  "total_passages": 19987,
+  "total_selected_passages": 1279,
+  "output_file": "data/processed\\corpus_records.jsonl"
+}

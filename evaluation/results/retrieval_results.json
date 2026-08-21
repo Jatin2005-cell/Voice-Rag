@@ -1,0 +1,1920 @@
+{
+  "dataset_name": "ai4bharat/MSMARCO-XI",
+  "num_queries_evaluated": 100,
+  "recall_at_1": 0.15,
+  "recall_at_5": 0.53,
+  "mrr_at_5": 0.2987,
+  "ndcg_at_5": 0.365,
+  "total_eval_time_sec": 24.88,
+  "queries": [
+    {
+      "query_id": 1102432,
+      "query": "कॉर्पोरेशन क्या है?",
+      "retrieved_chunk_ids": [
+        "q1102432_p5_c0",
+        "q1102432_p2_c0",
+        "q1102432_p4_c0",
+        "q1102432_p0_c0",
+        "q1102432_p3_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1102432_p5_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.6959378719329834,
+      "latency_ms": 22742.98
+    },
+    {
+      "query_id": 1102431,
+      "query": "रेचल कार्सन ने क्यों एक दायित्व बर्दाश्त करने के लिए लिखा",
+      "retrieved_chunk_ids": [
+        "q1102431_p6_c0",
+        "q1102431_p1_c0",
+        "q1102431_p3_c0",
+        "q1102431_p7_c0",
+        "q205107_p6_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1102431_p5_c0",
+        "q1102431_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6092723608016968,
+      "latency_ms": 52.39
+    },
+    {
+      "query_id": 205107,
+      "query": "ईमानदारी या सच्चाई की परिभाषा",
+      "retrieved_chunk_ids": [
+        "q205107_p9_c0",
+        "q205107_p8_c0",
+        "q205107_p7_c0",
+        "q205107_p2_c0",
+        "q205107_p4_c0"
+      ],
+      "gold_chunk_ids": [
+        "q205107_p2_c0",
+        "q205107_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.25,
+      "top_score": 0.808215856552124,
+      "latency_ms": 40.51
+    },
+    {
+      "query_id": 300122,
+      "query": "फ्रैंक गिफोर्ड ने कितनी महिलाओं से शादी की",
+      "retrieved_chunk_ids": [
+        "q300122_p6_c0",
+        "q159976_p7_c0",
+        "q1100337_p5_c0",
+        "q300122_p4_c0",
+        "q300122_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q300122_p1_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.7265491485595703,
+      "latency_ms": 49.23
+    },
+    {
+      "query_id": 233826,
+      "query": "बाज़ कितनी तेजी से यात्रा करता है",
+      "retrieved_chunk_ids": [
+        "q294720_p2_c0",
+        "q232017_p5_c0",
+        "q294720_p0_c0",
+        "q294720_p1_c0",
+        "q132733_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q233826_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6035332679748535,
+      "latency_ms": 43.95
+    },
+    {
+      "query_id": 1090355,
+      "query": "स्टबहब टोल फ्री नंबर",
+      "retrieved_chunk_ids": [
+        "q1090355_p3_c0",
+        "q1090355_p7_c0",
+        "q1090355_p0_c0",
+        "q1090355_p4_c0",
+        "q1090355_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1090355_p7_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.6535627841949463,
+      "latency_ms": 40.15
+    },
+    {
+      "query_id": 165349,
+      "query": "क्या डेल्टा बैंगलोर के लिए उड़ान भरता है?",
+      "retrieved_chunk_ids": [
+        "q165349_p5_c0",
+        "q165349_p3_c0",
+        "q165349_p0_c2",
+        "q165349_p0_c4",
+        "q165349_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q165349_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.7079091668128967,
+      "latency_ms": 44.12
+    },
+    {
+      "query_id": 260880,
+      "query": "कैंटालूप को कितने समय तक परिपक्व होना है",
+      "retrieved_chunk_ids": [
+        "q260880_p6_c0",
+        "q265717_p3_c0",
+        "q14373_p4_c0",
+        "q19130_p3_c0",
+        "q262841_p3_c0"
+      ],
+      "gold_chunk_ids": [
+        "q260880_p7_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6648210287094116,
+      "latency_ms": 46.94
+    },
+    {
+      "query_id": 116898,
+      "query": "परिभाषा मनमानी है",
+      "retrieved_chunk_ids": [
+        "q1060215_p7_c0",
+        "q116898_p7_c0",
+        "q204175_p4_c0",
+        "q205107_p9_c0",
+        "q116898_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q116898_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.7538524866104126,
+      "latency_ms": 41.1
+    },
+    {
+      "query_id": 1060361,
+      "query": "किन्ना पारस्परिक आदान-प्रदान होता है और इसकी समस्याएं क्या हैं",
+      "retrieved_chunk_ids": [
+        "q1060361_p8_c0",
+        "q1060361_p7_c0",
+        "q1060361_p5_c0",
+        "q1090311_p8_c0",
+        "q1060361_p6_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060361_p1_c0",
+        "q1060361_p9_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.4433441460132599,
+      "latency_ms": 50.28
+    },
+    {
+      "query_id": 1090353,
+      "query": "जलवायु मौसम का अध्ययन",
+      "retrieved_chunk_ids": [
+        "q1090353_p0_c0",
+        "q1090353_p4_c0",
+        "q1090353_p5_c0",
+        "q1090353_p1_c0",
+        "q1090353_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1090353_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.8585707545280457,
+      "latency_ms": 33.27
+    },
+    {
+      "query_id": 113570,
+      "query": "समाजशास्त्र की परिभाषा की संस्कृति",
+      "retrieved_chunk_ids": [
+        "q113570_p9_c0",
+        "q113570_p6_c0",
+        "q113570_p4_c0",
+        "q113570_p1_c0",
+        "q113570_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q113570_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.3333333333333333,
+      "top_score": 0.712833046913147,
+      "latency_ms": 42.34
+    },
+    {
+      "query_id": 126172,
+      "query": "मूलगामी गर्दन को परिभाषित करें",
+      "retrieved_chunk_ids": [
+        "q167532_p9_c0",
+        "q1090334_p0_c0",
+        "q264507_p5_c0",
+        "q126172_p4_c0",
+        "q72408_p0_c0"
+      ],
+      "gold_chunk_ids": [
+        "q126172_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.7082593441009521,
+      "latency_ms": 42.07
+    },
+    {
+      "query_id": 331047,
+      "query": "कितने खर्च होते हैं यू.एस.एक्स. गेम्स?",
+      "retrieved_chunk_ids": [
+        "q331047_p7_c0",
+        "q331047_p1_c0",
+        "q331047_p4_c0",
+        "q331047_p6_c0",
+        "q331047_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q331047_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.7396977543830872,
+      "latency_ms": 38.22
+    },
+    {
+      "query_id": 1060359,
+      "query": "आधारभूत क्या है जीने में?",
+      "retrieved_chunk_ids": [
+        "q204175_p2_c0",
+        "q126636_p3_c0",
+        "q204175_p1_c0",
+        "q126636_p2_c0",
+        "q1100337_p4_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060359_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5592149496078491,
+      "latency_ms": 36.72
+    },
+    {
+      "query_id": 267380,
+      "query": "आपको कितने समय तक कार्ब चक्र लगाना चाहिए",
+      "retrieved_chunk_ids": [
+        "q267380_p2_c0",
+        "q157359_p7_c0",
+        "q65593_p0_c0",
+        "q373018_p5_c0",
+        "q218882_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q267380_p2_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.6530244946479797,
+      "latency_ms": 40.48
+    },
+    {
+      "query_id": 1090352,
+      "query": "स्टाई कारण होता है",
+      "retrieved_chunk_ids": [
+        "q151712_p6_c0",
+        "q1090352_p2_c0",
+        "q151712_p2_c0",
+        "q151712_p4_c0",
+        "q70491_p6_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1090352_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5340542197227478,
+      "latency_ms": 35.34
+    },
+    {
+      "query_id": 202891,
+      "query": "रेडिंग का उच्चतम रिकॉर्ड तापमान",
+      "retrieved_chunk_ids": [
+        "q199311_p1_c0",
+        "q202891_p8_c0",
+        "q202891_p6_c0",
+        "q202891_p9_c0",
+        "q202891_p4_c0"
+      ],
+      "gold_chunk_ids": [
+        "q202891_p8_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.6265407800674438,
+      "latency_ms": 47.64
+    },
+    {
+      "query_id": 317450,
+      "query": "मैट लॉयर एक साल में कितना कमाता है",
+      "retrieved_chunk_ids": [
+        "q1090336_p2_c0",
+        "q1090336_p8_c0",
+        "q322391_p1_c0",
+        "q1090336_p3_c0",
+        "q312512_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q317450_p8_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6334147453308105,
+      "latency_ms": 40.1
+    },
+    {
+      "query_id": 373460,
+      "query": "एक 'एक्सेल शीट' कैसे प्रिंट करें",
+      "retrieved_chunk_ids": [
+        "q373460_p3_c0",
+        "q373460_p5_c0",
+        "q131143_p9_c0",
+        "q373460_p0_c0",
+        "q218882_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q373460_p9_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5965773463249207,
+      "latency_ms": 45.04
+    },
+    {
+      "query_id": 116095,
+      "query": "डेथ हेड यूनिट्स की परिभाषा",
+      "retrieved_chunk_ids": [
+        "q151682_p4_c0",
+        "q114458_p6_c0",
+        "q1060215_p6_c0",
+        "q161144_p5_c0",
+        "q151682_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q116095_p6_c0",
+        "q116095_p5_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.56633061170578,
+      "latency_ms": 43.62
+    },
+    {
+      "query_id": 21860,
+      "query": "मक्का का भोजन और मक्का का आटा एक जैसा ही है।",
+      "retrieved_chunk_ids": [
+        "q21860_p4_c0",
+        "q21860_p6_c0",
+        "q21860_p7_c0",
+        "q21860_p5_c0",
+        "q1101287_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q21860_p3_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.7721199989318848,
+      "latency_ms": 42.6
+    },
+    {
+      "query_id": 1060348,
+      "query": "क्या बुनियादी है?",
+      "retrieved_chunk_ids": [
+        "q132733_p7_c0",
+        "q204175_p1_c0",
+        "q204175_p2_c0",
+        "q365751_p3_c0",
+        "q131554_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060348_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.4684758186340332,
+      "latency_ms": 43.94
+    },
+    {
+      "query_id": 158720,
+      "query": "क्या लाल स्वादिष्ट सेब अच्छी सेब की चटनी बनाते हैं?",
+      "retrieved_chunk_ids": [
+        "q158720_p6_c0",
+        "q158720_p4_c0",
+        "q158720_p3_c0",
+        "q158720_p5_c0",
+        "q158720_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q158720_p3_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.3333333333333333,
+      "top_score": 0.8117547631263733,
+      "latency_ms": 45.99
+    },
+    {
+      "query_id": 330463,
+      "query": "एक टिकट कवर कितना वजन करता है",
+      "retrieved_chunk_ids": [
+        "q330463_p9_c0",
+        "q330463_p8_c0",
+        "q330463_p7_c0",
+        "q330463_p0_c0",
+        "q330463_p3_c0"
+      ],
+      "gold_chunk_ids": [
+        "q330463_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6718928217887878,
+      "latency_ms": 36.17
+    },
+    {
+      "query_id": 1090350,
+      "query": "वयस्कों में विस्थापन में सीमावर्ती व्यक्तित्व विकार के लक्षण",
+      "retrieved_chunk_ids": [
+        "q1090350_p2_c0",
+        "q1090350_p3_c0",
+        "q1090350_p5_c0",
+        "q1090350_p8_c0",
+        "q1090350_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1090350_p2_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.7717232704162598,
+      "latency_ms": 62.24
+    },
+    {
+      "query_id": 190327,
+      "query": "विटामिन डी की मदद करने वाले खाद्य पदार्थ",
+      "retrieved_chunk_ids": [
+        "q190327_p5_c0",
+        "q190327_p7_c0",
+        "q190327_p8_c0",
+        "q190327_p9_c0",
+        "q190327_p3_c0"
+      ],
+      "gold_chunk_ids": [
+        "q190327_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.783972442150116,
+      "latency_ms": 53.73
+    },
+    {
+      "query_id": 44760,
+      "query": "कैरेबियन में दिसंबर का औसत तापमान",
+      "retrieved_chunk_ids": [
+        "q44760_p1_c0",
+        "q44760_p0_c0",
+        "q44760_p4_c0",
+        "q44760_p5_c0",
+        "q44760_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q44760_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.8608931303024292,
+      "latency_ms": 47.02
+    },
+    {
+      "query_id": 271597,
+      "query": "मकई के एक कण को माइक्रोवेव में कितने समय तक पकाना है?",
+      "retrieved_chunk_ids": [
+        "q271597_p2_c0",
+        "q271597_p0_c0",
+        "q271597_p3_c0",
+        "q271597_p7_c0",
+        "q271597_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q271597_p5_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.7385029196739197,
+      "latency_ms": 53.67
+    },
+    {
+      "query_id": 131336,
+      "query": "स्थानीय डिस्क की परिभाषा",
+      "retrieved_chunk_ids": [
+        "q131336_p0_c0",
+        "q131336_p7_c0",
+        "q131336_p1_c0",
+        "q131336_p5_c0",
+        "q131336_p3_c0"
+      ],
+      "gold_chunk_ids": [
+        "q131336_p0_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.7293045520782471,
+      "latency_ms": 13.68
+    },
+    {
+      "query_id": 264507,
+      "query": "कंधे की रिकवरी कितने समय तक चलती है",
+      "retrieved_chunk_ids": [
+        "q264507_p7_c0",
+        "q264507_p9_c0",
+        "q264507_p6_c0",
+        "q264507_p2_c0",
+        "q1090346_p9_c0"
+      ],
+      "gold_chunk_ids": [
+        "q264507_p7_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.7239353656768799,
+      "latency_ms": 16.01
+    },
+    {
+      "query_id": 1101287,
+      "query": "क्या भारतीय लोग चावल खाते हैं?",
+      "retrieved_chunk_ids": [
+        "q1101287_p6_c0",
+        "q1101287_p4_c0",
+        "q1101287_p9_c0",
+        "q1101287_p1_c0",
+        "q1101287_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1101287_p3_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.8303870558738708,
+      "latency_ms": 14.12
+    },
+    {
+      "query_id": 1090349,
+      "query": "सब स्लैब परिभाषा",
+      "retrieved_chunk_ids": [
+        "q151682_p3_c0",
+        "q151682_p1_c0",
+        "q1090334_p0_c0",
+        "q151682_p4_c0",
+        "q150315_p4_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1090349_p1_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5555862784385681,
+      "latency_ms": 12.8
+    },
+    {
+      "query_id": 232017,
+      "query": "फिलाडेल्फिया लैंकेस्टर से कितनी दूर है",
+      "retrieved_chunk_ids": [
+        "q232017_p8_c0",
+        "q232017_p6_c0",
+        "q232017_p3_c0",
+        "q232017_p2_c0",
+        "q232017_p9_c0"
+      ],
+      "gold_chunk_ids": [
+        "q232017_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.8003575205802917,
+      "latency_ms": 15.74
+    },
+    {
+      "query_id": 328321,
+      "query": "कवनसोलॉपर के गोदाम के लिए पर्यवेक्षक की वेतन दर कितनी है",
+      "retrieved_chunk_ids": [
+        "q365284_p0_c0",
+        "q365284_p7_c0",
+        "q312512_p4_c0",
+        "q312512_p1_c0",
+        "q109309_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q328321_p5_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5905182361602783,
+      "latency_ms": 11.97
+    },
+    {
+      "query_id": 59804,
+      "query": "छोटे खीरे में कैलोरी की मात्रा",
+      "retrieved_chunk_ids": [
+        "q59804_p2_c0",
+        "q59804_p7_c0",
+        "q198064_p8_c0",
+        "q277559_p0_c0",
+        "q1060160_p0_c0"
+      ],
+      "gold_chunk_ids": [
+        "q59804_p7_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.7755804061889648,
+      "latency_ms": 15.37
+    },
+    {
+      "query_id": 1060342,
+      "query": "बैटरी का जीवन क्या है",
+      "retrieved_chunk_ids": [
+        "q1060342_p3_c0",
+        "q1060342_p6_c0",
+        "q1060342_p7_c0",
+        "q1060342_p8_c0",
+        "q1060342_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060342_p3_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.7451835870742798,
+      "latency_ms": 10.47
+    },
+    {
+      "query_id": 81945,
+      "query": "साइट्रिक्स ज़ेनैप सर्वर से कनेक्ट नहीं कर सकता है",
+      "retrieved_chunk_ids": [
+        "q81945_p3_c0",
+        "q81945_p2_c0",
+        "q81945_p6_c0",
+        "q81945_p7_c0",
+        "q89884_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q81945_p7_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.25,
+      "top_score": 0.7994721531867981,
+      "latency_ms": 13.85
+    },
+    {
+      "query_id": 113649,
+      "query": "कर्ब इवेंट सेंटर",
+      "retrieved_chunk_ids": [
+        "q113649_p0_c0",
+        "q113649_p2_c0",
+        "q113649_p1_c0",
+        "q113649_p6_c0",
+        "q113649_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q113649_p6_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.25,
+      "top_score": 0.7127690315246582,
+      "latency_ms": 8.9
+    },
+    {
+      "query_id": 129807,
+      "query": "परिभाषित करें: थ्रूपुट",
+      "retrieved_chunk_ids": [
+        "q1060215_p7_c0",
+        "q1090343_p7_c0",
+        "q131840_p6_c0",
+        "q130725_p3_c0",
+        "q1090318_p6_c0"
+      ],
+      "gold_chunk_ids": [
+        "q129807_p3_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5929880738258362,
+      "latency_ms": 10.67
+    },
+    {
+      "query_id": 92849,
+      "query": "स्कॉट्सडेल रीसाइक्लिंग कार्यक्रम का शहर",
+      "retrieved_chunk_ids": [
+        "q92849_p3_c0",
+        "q92849_p2_c0",
+        "q92849_p4_c0",
+        "q92849_p8_c0",
+        "q92849_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q92849_p8_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.25,
+      "top_score": 0.5983747839927673,
+      "latency_ms": 13.77
+    },
+    {
+      "query_id": 1100338,
+      "query": "गैलेंटाइन परिभाषा",
+      "retrieved_chunk_ids": [
+        "q1090318_p1_c0",
+        "q1100338_p8_c0",
+        "q204175_p4_c0",
+        "q1060215_p6_c0",
+        "q114458_p6_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1100338_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6530243158340454,
+      "latency_ms": 14.35
+    },
+    {
+      "query_id": 81586,
+      "query": "रद्द की गई जाँच की परिभाषा",
+      "retrieved_chunk_ids": [
+        "q81586_p2_c0",
+        "q286823_p9_c0",
+        "q1090311_p2_c0",
+        "q86437_p4_c0",
+        "q207039_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q81586_p7_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6404451131820679,
+      "latency_ms": 9.48
+    },
+    {
+      "query_id": 229215,
+      "query": "सुगंधित पानी कितना प्रभावी है",
+      "retrieved_chunk_ids": [
+        "q175854_p0_c0",
+        "q362486_p4_c0",
+        "q229215_p2_c0",
+        "q65593_p5_c0",
+        "q229215_p0_c0"
+      ],
+      "gold_chunk_ids": [
+        "q229215_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.2,
+      "top_score": 0.6487611532211304,
+      "latency_ms": 9.61
+    },
+    {
+      "query_id": 211441,
+      "query": "आपका चेकिंग खाता आपके क्रेडिट अंक को कैसे प्रभावित कर सकता है",
+      "retrieved_chunk_ids": [
+        "q211441_p8_c0",
+        "q211441_p2_c0",
+        "q211441_p3_c0",
+        "q211441_p5_c0",
+        "q211441_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q211441_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.8408689498901367,
+      "latency_ms": 16.77
+    },
+    {
+      "query_id": 265717,
+      "query": "कितने समय तक आई.आर.एस. रिकॉर्ड रखें",
+      "retrieved_chunk_ids": [
+        "q265717_p3_c0",
+        "q265717_p6_c0",
+        "q265717_p1_c0",
+        "q262841_p3_c0",
+        "q265717_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q265717_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.697970986366272,
+      "latency_ms": 15.67
+    },
+    {
+      "query_id": 185914,
+      "query": "संघीय ठेकेदार की परिभाषा",
+      "retrieved_chunk_ids": [
+        "q185914_p5_c0",
+        "q185914_p7_c0",
+        "q185914_p3_c0",
+        "q185914_p4_c0",
+        "q185914_p0_c0"
+      ],
+      "gold_chunk_ids": [
+        "q185914_p3_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.3333333333333333,
+      "top_score": 0.8576995730400085,
+      "latency_ms": 12.69
+    },
+    {
+      "query_id": 1060341,
+      "query": "बट्टी क्या है",
+      "retrieved_chunk_ids": [
+        "q1100338_p8_c0",
+        "q114458_p6_c0",
+        "q77101_p5_c0",
+        "q57119_p7_c0",
+        "q1090318_p6_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060341_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5417309999465942,
+      "latency_ms": 15.43
+    },
+    {
+      "query_id": 126636,
+      "query": "नियमित गतिविधि को परिभाषित करें।",
+      "retrieved_chunk_ids": [
+        "q126636_p3_c0",
+        "q126636_p2_c0",
+        "q59406_p4_c0",
+        "q126636_p5_c0",
+        "q1090343_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q126636_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.7371476888656616,
+      "latency_ms": 14.72
+    },
+    {
+      "query_id": 53335,
+      "query": "दुनिया की सबसे बड़ी ओरिगामी",
+      "retrieved_chunk_ids": [
+        "q205157_p2_c0",
+        "q1100338_p5_c0",
+        "q1090329_p1_c0",
+        "q204175_p4_c0",
+        "q205157_p6_c0"
+      ],
+      "gold_chunk_ids": [
+        "q53335_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5086914300918579,
+      "latency_ms": 10.87
+    },
+    {
+      "query_id": 160108,
+      "query": "क्या आप ठंडी शराब पी रहे हैं?",
+      "retrieved_chunk_ids": [
+        "q160108_p0_c0",
+        "q160108_p3_c0",
+        "q160108_p2_c0",
+        "q160108_p1_c0",
+        "q160108_p4_c0"
+      ],
+      "gold_chunk_ids": [
+        "q160108_p5_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6540735363960266,
+      "latency_ms": 14.04
+    },
+    {
+      "query_id": 157359,
+      "query": "इसे खुद से साफ करें।",
+      "retrieved_chunk_ids": [
+        "q81022_p6_c0",
+        "q204579_p9_c0",
+        "q81022_p5_c0",
+        "q204579_p7_c0",
+        "q93461_p6_c0"
+      ],
+      "gold_chunk_ids": [
+        "q157359_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5999969244003296,
+      "latency_ms": 13.45
+    },
+    {
+      "query_id": 43115,
+      "query": "कार्यालय प्रबंधक का औसत वेतन बंधक ऋण",
+      "retrieved_chunk_ids": [
+        "q43115_p1_c0",
+        "q43115_p4_c0",
+        "q43115_p0_c0",
+        "q43115_p7_c0",
+        "q43115_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q43115_p1_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.7788164615631104,
+      "latency_ms": 13.6
+    },
+    {
+      "query_id": 1060335,
+      "query": "बे क्रेस्ट पार्टनर्स क्या हैं",
+      "retrieved_chunk_ids": [
+        "q1060335_p0_c0",
+        "q1060335_p2_c0",
+        "q1060013_p1_c0",
+        "q213818_p1_c0",
+        "q1060251_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060335_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.6178085803985596,
+      "latency_ms": 37.83
+    },
+    {
+      "query_id": 322201,
+      "query": "काउंटी जेल में बंद रहते हुए प्रतिदिन कितना खर्च आता है?",
+      "retrieved_chunk_ids": [
+        "q322201_p3_c0",
+        "q322201_p8_c0",
+        "q322201_p4_c0",
+        "q322201_p5_c0",
+        "q322201_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q322201_p8_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.7272307872772217,
+      "latency_ms": 16.57
+    },
+    {
+      "query_id": 252638,
+      "query": "दरार वाली पसलियों को ठीक होने में कितना समय लगता है",
+      "retrieved_chunk_ids": [
+        "q252638_p0_c0",
+        "q252638_p7_c0",
+        "q252638_p9_c0",
+        "q252638_p2_c0",
+        "q252638_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q252638_p7_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.8551363945007324,
+      "latency_ms": 11.67
+    },
+    {
+      "query_id": 167532,
+      "query": "क्या फुलाने योग्य गर्दन का कर्षण काम करता है",
+      "retrieved_chunk_ids": [
+        "q167532_p9_c0",
+        "q167532_p2_c0",
+        "q72408_p5_c0",
+        "q167532_p5_c0",
+        "q167532_p3_c0"
+      ],
+      "gold_chunk_ids": [
+        "q167532_p5_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.25,
+      "top_score": 0.7872762680053711,
+      "latency_ms": 11.15
+    },
+    {
+      "query_id": 137339,
+      "query": "प्राथमिक देखभाल की परिभाषा अमेरिकी परिवार चिकित्सकों की अकादमी",
+      "retrieved_chunk_ids": [
+        "q137339_p9_c0",
+        "q137339_p4_c0",
+        "q137339_p7_c0",
+        "q137339_p0_c0",
+        "q137339_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q137339_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.25,
+      "top_score": 0.7963460683822632,
+      "latency_ms": 12.07
+    },
+    {
+      "query_id": 218882,
+      "query": "मैं चेरी की कैसे गिरविट करूँ।",
+      "retrieved_chunk_ids": [
+        "q218882_p1_c0",
+        "q218882_p2_c0",
+        "q16073_p6_c0",
+        "q218882_p4_c0",
+        "q218882_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q218882_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.47027695178985596,
+      "latency_ms": 12.55
+    },
+    {
+      "query_id": 1060323,
+      "query": "बेयर्न म्यूनिख क्या है",
+      "retrieved_chunk_ids": [
+        "q1060323_p3_c0",
+        "q1060323_p4_c0",
+        "q223811_p0_c0",
+        "q57119_p3_c0",
+        "q139806_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060323_p3_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.6087393760681152,
+      "latency_ms": 12.1
+    },
+    {
+      "query_id": 114458,
+      "query": "पर्दा हुक प्रकार",
+      "retrieved_chunk_ids": [
+        "q114458_p6_c0",
+        "q150315_p4_c0",
+        "q332447_p4_c0",
+        "q114458_p0_c0",
+        "q100714_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q114458_p6_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.6789528131484985,
+      "latency_ms": 10.22
+    },
+    {
+      "query_id": 211952,
+      "query": "गर्भावस्था के दौरान रक्तस्राव कितना आम है",
+      "retrieved_chunk_ids": [
+        "q211952_p1_c0",
+        "q211952_p7_c0",
+        "q211952_p4_c0",
+        "q211952_p8_c0",
+        "q211952_p6_c0"
+      ],
+      "gold_chunk_ids": [
+        "q211952_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.3333333333333333,
+      "top_score": 0.8392716646194458,
+      "latency_ms": 11.73
+    },
+    {
+      "query_id": 188714,
+      "query": "खाद्य पदार्थ और रक्त शर्करा को कम करने के लिए पूरक आहार",
+      "retrieved_chunk_ids": [
+        "q188714_p8_c0",
+        "q188714_p1_c0",
+        "q50810_p4_c0",
+        "q188714_p6_c0",
+        "q361661_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q188714_p6_c0",
+        "q188714_p1_c0",
+        "q188714_p9_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.8268328309059143,
+      "latency_ms": 13.73
+    },
+    {
+      "query_id": 14449,
+      "query": "जब दांत गिरते हैं तब",
+      "retrieved_chunk_ids": [
+        "q14449_p5_c0",
+        "q14449_p0_c0",
+        "q14449_p2_c0",
+        "q100714_p2_c0",
+        "q75497_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q14449_p3_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.7666864395141602,
+      "latency_ms": 11.79
+    },
+    {
+      "query_id": 194890,
+      "query": "जी.आई.डी.ए. डेलॉरन की कुल संपत्ति",
+      "retrieved_chunk_ids": [
+        "q353418_p8_c0",
+        "q353418_p6_c0",
+        "q1060170_p8_c0",
+        "q100365_p3_c0",
+        "q1060215_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q194890_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.48205453157424927,
+      "latency_ms": 15.16
+    },
+    {
+      "query_id": 66881,
+      "query": "क्या कान के संक्रमण से बिल्लियों में दौरे पड़ सकते हैं?",
+      "retrieved_chunk_ids": [
+        "q66881_p8_c0",
+        "q1090320_p9_c0",
+        "q66881_p9_c0",
+        "q66881_p5_c0",
+        "q66881_p4_c0"
+      ],
+      "gold_chunk_ids": [
+        "q66881_p3_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.8141154050827026,
+      "latency_ms": 12.21
+    },
+    {
+      "query_id": 1060308,
+      "query": "सुरक्षा में बी.बी.एस. क्या है",
+      "retrieved_chunk_ids": [
+        "q1060308_p9_c0",
+        "q1060308_p7_c0",
+        "q1060308_p3_c0",
+        "q129220_p3_c0",
+        "q207039_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060308_p3_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.3333333333333333,
+      "top_score": 0.7657970190048218,
+      "latency_ms": 11.17
+    },
+    {
+      "query_id": 291248,
+      "query": "एक गैलन में कितना तरल होता है",
+      "retrieved_chunk_ids": [
+        "q291248_p9_c0",
+        "q291248_p7_c0",
+        "q291248_p4_c0",
+        "q198064_p8_c0",
+        "q291248_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q291248_p7_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.7275576591491699,
+      "latency_ms": 11.83
+    },
+    {
+      "query_id": 183155,
+      "query": "उत्साहित परिभाषित करें",
+      "retrieved_chunk_ids": [
+        "q183155_p1_c0",
+        "q183155_p0_c0",
+        "q183155_p3_c0",
+        "q183155_p2_c0",
+        "q183155_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q183155_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.7729362845420837,
+      "latency_ms": 9.87
+    },
+    {
+      "query_id": 294479,
+      "query": "अमेज़न को प्रति सेकंड कितने अनुरोध मिलते हैं",
+      "retrieved_chunk_ids": [
+        "q294479_p9_c0",
+        "q294479_p5_c0",
+        "q294479_p3_c0",
+        "q294479_p2_c0",
+        "q294479_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q294479_p9_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.799252986907959,
+      "latency_ms": 14.62
+    },
+    {
+      "query_id": 337365,
+      "query": "चेटकिंस की मृत्यु के समय उनकी उम्र क्या थी?",
+      "retrieved_chunk_ids": [
+        "q1060054_p6_c0",
+        "q337365_p3_c0",
+        "q300122_p7_c0",
+        "q337413_p7_c0",
+        "q1060054_p3_c0"
+      ],
+      "gold_chunk_ids": [
+        "q337365_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6568700075149536,
+      "latency_ms": 12.68
+    },
+    {
+      "query_id": 174278,
+      "query": "क्या योग से मांसपेशियां बनती हैं?",
+      "retrieved_chunk_ids": [
+        "q174278_p4_c0",
+        "q174278_p9_c0",
+        "q174278_p0_c0",
+        "q174278_p2_c0",
+        "q1060090_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q174278_p9_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.800553560256958,
+      "latency_ms": 11.73
+    },
+    {
+      "query_id": 298113,
+      "query": "दुनिया में कितने समय क्षेत्र हैं?",
+      "retrieved_chunk_ids": [
+        "q298113_p8_c0",
+        "q298113_p5_c0",
+        "q298113_p3_c0",
+        "q374799_p7_c0",
+        "q298113_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q298113_p3_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.3333333333333333,
+      "top_score": 0.7532997131347656,
+      "latency_ms": 10.08
+    },
+    {
+      "query_id": 154018,
+      "query": "दूरी स्कॉट्सडेल से ग्रैंड कैन्यन तक",
+      "retrieved_chunk_ids": [
+        "q154018_p9_c0",
+        "q154018_p6_c0",
+        "q154018_p4_c0",
+        "q238254_p1_c0",
+        "q154018_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q154018_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.7554742693901062,
+      "latency_ms": 10.59
+    },
+    {
+      "query_id": 165007,
+      "query": "क्या दोषसिद्धि का मतलब जेल है?",
+      "retrieved_chunk_ids": [
+        "q165007_p6_c0",
+        "q165007_p4_c0",
+        "q165007_p2_c0",
+        "q165007_p0_c0",
+        "q165007_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q165007_p6_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.8154665231704712,
+      "latency_ms": 11.39
+    },
+    {
+      "query_id": 171571,
+      "query": "क्या सोया का कब्ज से कोई लेना-देना है?",
+      "retrieved_chunk_ids": [
+        "q1090318_p1_c0",
+        "q82842_p1_c0",
+        "q147503_p7_c0",
+        "q82842_p7_c0",
+        "q65593_p3_c0"
+      ],
+      "gold_chunk_ids": [
+        "q171571_p8_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.49219250679016113,
+      "latency_ms": 11.9
+    },
+    {
+      "query_id": 33306,
+      "query": "1980 में कॉलेज की औसत लागत",
+      "retrieved_chunk_ids": [
+        "q33306_p1_c0",
+        "q33306_p5_c0",
+        "q33306_p3_c0",
+        "q33306_p8_c0",
+        "q44018_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q33306_p1_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.840467095375061,
+      "latency_ms": 14.77
+    },
+    {
+      "query_id": 1060256,
+      "query": "बी.सी.पी. मोड क्या है",
+      "retrieved_chunk_ids": [
+        "q137728_p2_c0",
+        "q1060335_p3_c0",
+        "q110121_p3_c0",
+        "q1060308_p3_c0",
+        "q137728_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060256_p3_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5512735843658447,
+      "latency_ms": 11.07
+    },
+    {
+      "query_id": 108946,
+      "query": "एक अलग गैरेज बनाने की लागत",
+      "retrieved_chunk_ids": [
+        "q365284_p7_c0",
+        "q108946_p5_c0",
+        "q121272_p5_c0",
+        "q121272_p7_c0",
+        "q121272_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q108946_p5_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.7229430675506592,
+      "latency_ms": 9.14
+    },
+    {
+      "query_id": 205251,
+      "query": "कैसिडी के घोड़े का नाम",
+      "retrieved_chunk_ids": [
+        "q2042_p9_c0",
+        "q205251_p9_c0",
+        "q205251_p6_c0",
+        "q2042_p0_c0",
+        "q205251_p4_c0"
+      ],
+      "gold_chunk_ids": [
+        "q205251_p9_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.6814083456993103,
+      "latency_ms": 9.75
+    },
+    {
+      "query_id": 138026,
+      "query": "स्कॉफी की परिभाषा",
+      "retrieved_chunk_ids": [
+        "q60147_p9_c0",
+        "q60147_p4_c0",
+        "q60147_p3_c0",
+        "q60147_p8_c0",
+        "q229215_p0_c0"
+      ],
+      "gold_chunk_ids": [
+        "q138026_p1_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6143996715545654,
+      "latency_ms": 8.95
+    },
+    {
+      "query_id": 222240,
+      "query": "आप ताजी सब्जियों को कैसे फ्रीज करते हैं?",
+      "retrieved_chunk_ids": [
+        "q222240_p1_c0",
+        "q222240_p9_c0",
+        "q222240_p7_c0",
+        "q222240_p2_c0",
+        "q222240_p4_c0"
+      ],
+      "gold_chunk_ids": [
+        "q222240_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.25,
+      "top_score": 0.7578417658805847,
+      "latency_ms": 9.99
+    },
+    {
+      "query_id": 204579,
+      "query": "मुँहासों के घरेलू उपचार",
+      "retrieved_chunk_ids": [
+        "q75497_p1_c0",
+        "q204579_p4_c0",
+        "q1060341_p7_c0",
+        "q204579_p8_c0",
+        "q1060341_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q204579_p5_c0",
+        "q204579_p3_c0",
+        "q204579_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.5711594820022583,
+      "latency_ms": 10.97
+    },
+    {
+      "query_id": 1060251,
+      "query": "बीडीओपीएस क्या है",
+      "retrieved_chunk_ids": [
+        "q9671_p9_c0",
+        "q137339_p3_c0",
+        "q1060308_p3_c0",
+        "q130023_p0_c0",
+        "q58928_p0_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060251_p8_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5092923641204834,
+      "latency_ms": 8.76
+    },
+    {
+      "query_id": 86437,
+      "query": "गर्भावस्था परीक्षण के मिथ्या-परिणाम देने के कारण",
+      "retrieved_chunk_ids": [
+        "q86437_p2_c0",
+        "q86437_p0_c0",
+        "q86437_p4_c0",
+        "q86437_p3_c0",
+        "q86437_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q86437_p9_c0",
+        "q86437_p0_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.8247578144073486,
+      "latency_ms": 10.72
+    },
+    {
+      "query_id": 305650,
+      "query": "पहले उत्तरदाताओं ने कितना कमाया",
+      "retrieved_chunk_ids": [
+        "q305650_p5_c0",
+        "q1090336_p2_c0",
+        "q43115_p0_c0",
+        "q1090336_p8_c0",
+        "q1090327_p2_c0"
+      ],
+      "gold_chunk_ids": [
+        "q305650_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.586336612701416,
+      "latency_ms": 10.53
+    },
+    {
+      "query_id": 127186,
+      "query": "स्लिमी को परिभाषित करें",
+      "retrieved_chunk_ids": [
+        "q114458_p6_c0",
+        "q1060215_p7_c0",
+        "q1090332_p9_c0",
+        "q1090318_p6_c0",
+        "q1090332_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q127186_p7_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6562861204147339,
+      "latency_ms": 8.91
+    },
+    {
+      "query_id": 160694,
+      "query": "क्या आपको जिम शिक्षक बनने के लिए डिग्री की आवश्यकता है?",
+      "retrieved_chunk_ids": [
+        "q160694_p4_c0",
+        "q160694_p0_c0",
+        "q160694_p8_c0",
+        "q160694_p6_c0",
+        "q73193_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q160694_p6_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.25,
+      "top_score": 0.8287497758865356,
+      "latency_ms": 13.54
+    },
+    {
+      "query_id": 205157,
+      "query": "होंगेरा का अर्थ है",
+      "retrieved_chunk_ids": [
+        "q1060215_p7_c0",
+        "q1100338_p8_c0",
+        "q114458_p6_c0",
+        "q1090318_p1_c0",
+        "q131840_p0_c0"
+      ],
+      "gold_chunk_ids": [
+        "q205157_p1_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.6063101291656494,
+      "latency_ms": 10.71
+    },
+    {
+      "query_id": 1090338,
+      "query": "सकुंतालु पादप का अर्थ है",
+      "retrieved_chunk_ids": [
+        "q88831_p2_c0",
+        "q114458_p6_c0",
+        "q1100338_p8_c0",
+        "q178136_p1_c0",
+        "q84841_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1090338_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5039408206939697,
+      "latency_ms": 10.91
+    },
+    {
+      "query_id": 132733,
+      "query": "बैंडविड्थ की परिभाषा इंटरनेट पर",
+      "retrieved_chunk_ids": [
+        "q132733_p7_c0",
+        "q132733_p1_c0",
+        "q1090341_p0_c0",
+        "q364630_p6_c0",
+        "q1090341_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q132733_p7_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.7213633060455322,
+      "latency_ms": 10.0
+    },
+    {
+      "query_id": 206044,
+      "query": "होटल लिविंगस्टन, टेक्सास में है।",
+      "retrieved_chunk_ids": [
+        "q206044_p3_c0",
+        "q206044_p4_c0",
+        "q206044_p2_c0",
+        "q206044_p5_c0",
+        "q206044_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q206044_p5_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.25,
+      "top_score": 0.7612789869308472,
+      "latency_ms": 14.03
+    },
+    {
+      "query_id": 368117,
+      "query": "ट्रेलर रैंप कैसे बनाएं",
+      "retrieved_chunk_ids": [
+        "q368117_p0_c0",
+        "q368117_p6_c0",
+        "q368117_p1_c0",
+        "q368117_p7_c0",
+        "q368117_p8_c0"
+      ],
+      "gold_chunk_ids": [
+        "q368117_p1_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.3333333333333333,
+      "top_score": 0.7307606935501099,
+      "latency_ms": 10.51
+    },
+    {
+      "query_id": 279525,
+      "query": "मानव संतानों में कितने गुणसूत्र होते हैं",
+      "retrieved_chunk_ids": [
+        "q279525_p6_c0",
+        "q279525_p9_c0",
+        "q279525_p5_c0",
+        "q70250_p9_c0",
+        "q280806_p5_c0"
+      ],
+      "gold_chunk_ids": [
+        "q279525_p6_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.8403303623199463,
+      "latency_ms": 13.77
+    },
+    {
+      "query_id": 26054,
+      "query": "100% वेक्टोमी होती हैं।",
+      "retrieved_chunk_ids": [
+        "q1060174_p3_c0",
+        "q1101283_p5_c0",
+        "q70489_p5_c0",
+        "q1060174_p5_c0",
+        "q1060174_p7_c0"
+      ],
+      "gold_chunk_ids": [
+        "q26054_p1_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.40509629249572754,
+      "latency_ms": 10.66
+    },
+    {
+      "query_id": 335367,
+      "query": "जो स्कारबोरो कितना पुराना है",
+      "retrieved_chunk_ids": [
+        "q337365_p3_c0",
+        "q1060054_p6_c0",
+        "q100250_p1_c0",
+        "q58772_p9_c0",
+        "q19130_p3_c0"
+      ],
+      "gold_chunk_ids": [
+        "q335367_p5_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.0,
+      "mrr_at_5": 0.0,
+      "top_score": 0.5248526334762573,
+      "latency_ms": 12.24
+    },
+    {
+      "query_id": 1060221,
+      "query": "बियर पे का मध्य नाम क्या है",
+      "retrieved_chunk_ids": [
+        "q1060221_p3_c0",
+        "q1060221_p7_c0",
+        "q1060221_p0_c0",
+        "q1060221_p4_c0",
+        "q1060221_p9_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1060221_p4_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.25,
+      "top_score": 0.7487711906433105,
+      "latency_ms": 11.93
+    },
+    {
+      "query_id": 1101286,
+      "query": "क्या अंगूठे के अंदर के नाखून अपने आप निकल जाते हैं?",
+      "retrieved_chunk_ids": [
+        "q1101286_p4_c0",
+        "q88831_p4_c0",
+        "q1101286_p2_c0",
+        "q88831_p2_c0",
+        "q1101286_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1101286_p4_c0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "top_score": 0.7658460140228271,
+      "latency_ms": 13.59
+    },
+    {
+      "query_id": 1090337,
+      "query": "क्या अर्थ है ऐसे रस का?",
+      "retrieved_chunk_ids": [
+        "q1090338_p9_c0",
+        "q1090337_p6_c0",
+        "q1090337_p9_c0",
+        "q1090338_p1_c0",
+        "q129145_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q1090337_p6_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.5,
+      "top_score": 0.7156865000724792,
+      "latency_ms": 10.76
+    },
+    {
+      "query_id": 134494,
+      "query": "अतिरिक्त भूमि की परिभाषा",
+      "retrieved_chunk_ids": [
+        "q134494_p0_c0",
+        "q134494_p3_c0",
+        "q134494_p2_c0",
+        "q134494_p8_c0",
+        "q134494_p1_c0"
+      ],
+      "gold_chunk_ids": [
+        "q134494_p2_c0"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.3333333333333333,
+      "top_score": 0.7219890356063843,
+      "latency_ms": 10.32
+    }
+  ]
+}

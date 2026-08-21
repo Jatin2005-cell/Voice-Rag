@@ -1,0 +1,30 @@
+{
+  "project": "VoiceRAG",
+  "tagline": "Ask. Retrieve. Verify.",
+  "dataset_name": "ai4bharat/MSMARCO-XI",
+  "dataset_language": "hi",
+  "dataset_split": "validation",
+  "indexed_rows": 2000,
+  "indexed_passages": 19987,
+  "num_queries": 100,
+  "target_ms": 200.0,
+  "status": "PASS",
+  "p50_ms": 53.59,
+  "p70_ms": 58.35,
+  "p100_ms": 167.05,
+  "mean_ms": 55.31,
+  "min_ms": 1.38,
+  "max_ms": 167.05,
+  "recall_at_1": 0.15,
+  "recall_at_5": 0.53,
+  "mrr_at_5": 0.2987,
+  "ndcg_at_5": 0.365,
+  "stages_mean_ms": {
+    "embedding_ms": 53.88,
+    "retrieval_ms": 0.78,
+    "context_building_ms": 0.03,
+    "generation_ms": 0.16,
+    "grounding_ms": 0.44,
+    "total_rag_ms": 55.31
+  }
+}

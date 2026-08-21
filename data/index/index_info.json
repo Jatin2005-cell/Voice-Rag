@@ -1,0 +1,7 @@
+{
+  "total_vectors": 5000,
+  "dimension": 384,
+  "created_at": 1787027221.8731558,
+  "vector_file": "vector_index.npz",
+  "metadata_file": "metadata.jsonl"
+}

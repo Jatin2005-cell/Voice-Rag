@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Data artifacts
+data/raw/*.parquet
+!data/raw/.gitkeep
+data/index/vector_index.npz
+data/index/metadata.jsonl
+
+# Node
+node_modules/
+dist/
+.vite/
+*.log
+
+# Cache
+.cache/
+.pytest_cache/

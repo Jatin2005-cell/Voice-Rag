@@ -1,0 +1,8 @@
+{
+  "strategy": "passage",
+  "input_records": 2000,
+  "total_chunks": 20263,
+  "selected_chunks": 1293,
+  "average_words_per_chunk": 60.93,
+  "output_file": "data/chunks\\chunks.jsonl"
+}

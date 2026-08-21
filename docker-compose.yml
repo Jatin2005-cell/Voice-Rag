@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATASET_LANGUAGE=hi
+      - DATASET_SPLIT=validation
+      - MAX_ROWS=2000
+      - TOP_K=5
+      - SIMILARITY_THRESHOLD=0.35
+      - RERANKING_ENABLED=false
+      - CHUNKING_STRATEGY=passage
+      - EMBEDDING_PROVIDER=sentence_transformers
+      - EMBEDDING_MODEL=sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+      - LLM_PROVIDER=groq
+      - LLM_MODEL=llama-3.1-8b-instant
+      - GROQ_API_KEY=${GROQ_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - STT_PROVIDER=sarvam
+      - SARVAM_API_KEY=${SARVAM_API_KEY:-}
+      - FRONTEND_ORIGIN=*
+    volumes:
+      - ./data:/app/data
+      - ./evaluation/results:/app/evaluation/results
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      - backend
