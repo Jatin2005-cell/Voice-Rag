@@ -8,7 +8,7 @@ import SourceCard from '../components/SourceCard';
 import WhyThisAnswer from '../components/WhyThisAnswer';
 import LatencyMeter from '../components/LatencyMeter';
 import { sendTextQuery } from '../services/api';
-import sunRiseImg from '../assets/sun_rise.png';
+import sunRiseImg from '../assets/Sun_rise.png';
 
 export default function RagPage() {
   const [query, setQuery] = useState('');
