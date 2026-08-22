@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Activity, Target, CheckCircle, BarChart3, Database, Clock, Layers, RefreshCw } from 'lucide-react';
 import { fetchEvaluationSummary } from '../services/api';
-import sunRiseImg from '../assets/sun_rise.png';
+import sunRiseImg from '../assets/Sun_rise.png';
 
 export default function EvaluationPage() {
   const [summary, setSummary] = useState(null);
