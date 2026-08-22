@@ -19,7 +19,7 @@ class Settings:
     # Chunking & Retrieval
     CHUNKING_STRATEGY: str = os.getenv("CHUNKING_STRATEGY", "passage")
     TOP_K: int = int(os.getenv("TOP_K", "5"))
-    SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.35"))
+    SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.0"))
     RERANKING_ENABLED: bool = os.getenv("RERANKING_ENABLED", "false").lower() in ("true", "1", "yes")
 
     # Embeddings & Store

@@ -16,7 +16,7 @@ class RetrievalPipeline:
         vector_store: Optional[VectorStore] = None,
         reranker: Optional[BaseReranker] = None,
         top_k: int = 5,
-        similarity_threshold: float = 0.35,
+        similarity_threshold: float = 0.0,
         reranking_enabled: bool = False
     ):
         self.embedder = embedder or get_embedding_provider()
@@ -57,9 +57,13 @@ class RetrievalPipeline:
             search_results = self.reranker.rerank(query, search_results, top_k=k)
         rerank_ms = (time.perf_counter() - t_rerank_start) * 1000.0
 
-        # Step 4: Relevance Filtering
+        # Step 4: Relevance Filtering with Fallback logic
         filtered_results = [r for r in search_results if r.score >= threshold][:k]
         
+        # Fallback: If no results passed threshold, return top candidates if available
+        if not filtered_results and search_results:
+            filtered_results = search_results[:k]
+
         total_retrieval_ms = (time.perf_counter() - t_start) * 1000.0
 
         return {
