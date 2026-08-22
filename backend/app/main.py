@@ -12,7 +12,7 @@ import logging
 from .config import settings
 from .api import health, query, voice, evaluation, system
 from .services.vector_store import get_vector_store
-
+from .services.embeddings import preload_embedding_provider
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("voicerag.main")
 
@@ -51,12 +51,44 @@ app.include_router(system.router, prefix="/api", tags=["System"])
 @app.on_event("startup")
 async def startup_event():
     logger.info("Initializing VoiceRAG application services...")
-    # Preload vector index if available
+
+    # ---------------------------------------------------------
+    # 1. Preload embedding model ONCE
+    # ---------------------------------------------------------
+    try:
+        embedder = preload_embedding_provider()
+
+        logger.info(
+            f"Embedding model loaded: "
+            f"{embedder.model_name}"
+        )
+
+        logger.info(
+            f"Embedding dimension: "
+            f"{embedder.dimension}"
+        )
+
+    except Exception as e:
+        logger.exception(
+            f"Failed to preload embedding model: {e}"
+        )
+        raise
+
+    # ---------------------------------------------------------
+    # 2. Preload vector index ONCE
+    # ---------------------------------------------------------
     try:
         store = get_vector_store()
-        logger.info(f"Vector Store initialized with {store.count()} chunks.")
+
+        logger.info(
+            f"Vector Store initialized with "
+            f"{store.count()} chunks."
+        )
+
     except Exception as e:
-        logger.warning(f"Vector store not yet indexed: {e}")
+        logger.warning(
+            f"Vector store not yet indexed: {e}"
+        )
 
 @app.get("/")
 def root():
