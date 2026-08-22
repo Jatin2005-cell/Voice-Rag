@@ -29,9 +29,9 @@ class RAGOrchestrator:
         grounding_validator: Optional[GroundingValidator] = None,
         stt_provider: Optional[SpeechToTextProvider] = None,
         default_top_k: int = 5,
-        default_similarity_threshold: float = 0.35
+        default_similarity_threshold: float = 0.0  # FIXED: Lowered default threshold from 0.35 to 0.0
     ):
-        self.retrieval = retrieval_pipeline or RetrievalPipeline()
+        self.retrieval = retrieval_pipeline or RetrievalPipeline(similarity_threshold=default_similarity_threshold)
         self.llm = llm_provider or get_llm_provider()
         self.guardrails = guardrail_engine or GuardrailEngine(min_similarity_threshold=default_similarity_threshold)
         self.grounding = grounding_validator or GroundingValidator()
