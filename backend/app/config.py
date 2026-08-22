@@ -14,7 +14,7 @@ class Settings:
     DATASET_NAME: str = "ai4bharat/MSMARCO-XI"
     DATASET_LANGUAGE: str = os.getenv("DATASET_LANGUAGE", "hi")
     DATASET_SPLIT: str = os.getenv("DATASET_SPLIT", "validation")
-    MAX_ROWS: int = int(os.getenv("MAX_ROWS", "2000"))
+    MAX_ROWS: int = int(os.getenv("MAX_ROWS", "200"))
 
     # Chunking & Retrieval
     CHUNKING_STRATEGY: str = os.getenv("CHUNKING_STRATEGY", "passage")
@@ -23,7 +23,7 @@ class Settings:
     RERANKING_ENABLED: bool = os.getenv("RERANKING_ENABLED", "false").lower() in ("true", "1", "yes")
 
     # Embeddings & Store
-    EMBEDDING_PROVIDER: str = os.getenv("EMBEDDING_PROVIDER", "sentence_transformers")
+    EMBEDDING_PROVIDER: str = os.getenv("EMBEDDING_PROVIDER", "mock")
     EMBEDDING_MODEL: str = os.getenv("EMBEDDING_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
     INDEX_DIR: str = os.getenv("INDEX_DIR", "data/index")
 
