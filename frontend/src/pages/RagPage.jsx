@@ -8,6 +8,7 @@ import SourceCard from '../components/SourceCard';
 import WhyThisAnswer from '../components/WhyThisAnswer';
 import LatencyMeter from '../components/LatencyMeter';
 import { sendTextQuery } from '../services/api';
+import sunRiseImg from '../assets/sun_rise.png';
 
 export default function RagPage() {
   const [query, setQuery] = useState('');
@@ -131,15 +132,32 @@ export default function RagPage() {
     <div style={{
       width: '100%',
       minHeight: '100vh',
-      backgroundColor: '#020617',
-      color: '#f8fafc',
+      backgroundColor: '#0B3C2A',
+      color: '#FACC15',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
       padding: '40px 16px',
-      fontFamily: 'system-ui, -apple-system, sans-serif'
+      fontFamily: 'system-ui, -apple-system, sans-serif',
+      position: 'relative',
+      overflow: 'hidden'
     }}>
-      <div style={{ width: '100%', maxWidth: '800px', display: 'flex', flexDirection: 'column', gap: '32px' }}>
+      {/* Enhanced Visibility Sunrise Background Layer */}
+      <div 
+        style={{
+          position: 'absolute',
+          inset: 0,
+          backgroundImage: `linear-gradient(to bottom, rgba(11, 60, 42, 0.45) 0%, rgba(11, 60, 42, 0.75) 60%, rgba(11, 60, 42, 0.95) 100%), url(${sunRiseImg})`,
+          backgroundPosition: 'bottom center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          opacity: 0.55,
+          pointerEvents: 'none',
+          zIndex: 0
+        }} 
+      />
+
+      <div style={{ width: '100%', maxWidth: '800px', display: 'flex', flexDirection: 'column', gap: '32px', position: 'relative', zIndex: 10 }}>
 
         {/* Header */}
         <div style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '12px', alignItems: 'center' }}>
@@ -149,21 +167,23 @@ export default function RagPage() {
             gap: '8px',
             padding: '6px 16px',
             borderRadius: '9999px',
-            backgroundColor: 'rgba(99, 102, 241, 0.1)',
-            border: '1px solid rgba(99, 102, 241, 0.2)',
-            color: '#a5b4fc',
+            backgroundColor: 'rgba(7, 44, 30, 0.85)',
+            border: '1px solid rgba(250, 204, 21, 0.6)',
+            color: '#FACC15',
             fontSize: '12px',
-            fontWeight: 600
+            fontWeight: 700,
+            textTransform: 'uppercase',
+            backdropFilter: 'blur(8px)'
           }}>
-            <Sparkles size={14} color="#818cf8" />
+            <Sparkles size={14} color="#FACC15" />
             <span>Multilingual Voice Grounded RAG</span>
           </div>
 
-          <h1 style={{ fontSize: '36px', fontWeight: 800, margin: 0, letterSpacing: '-0.025em' }}>
+          <h1 style={{ fontSize: '38px', fontWeight: 900, margin: 0, letterSpacing: '-0.025em', color: '#FACC15', textShadow: '0 4px 12px rgba(0, 0, 0, 0.6)' }}>
             Ask. Retrieve. Verify.
           </h1>
 
-          <p style={{ fontSize: '14px', color: '#94a3b8', margin: 0, maxWidth: '500px', lineHeight: '1.5' }}>
+          <p style={{ fontSize: '14px', color: '#FFFFFF', margin: 0, maxWidth: '500px', lineHeight: '1.5', fontWeight: 500, textShadow: '0 2px 8px rgba(0, 0, 0, 0.7)' }}>
             Query grounded facts across Indic languages using dense vector retrieval against MSMARCO-XI.
           </p>
         </div>
@@ -174,24 +194,27 @@ export default function RagPage() {
           alignItems: 'center',
           justifyContent: 'center',
           gap: '12px',
-          backgroundColor: '#0f172a',
-          border: '1px solid #1e293b',
+          backgroundColor: 'rgba(7, 44, 30, 0.9)',
+          backdropFilter: 'blur(12px)',
+          border: '1px solid rgba(250, 204, 21, 0.4)',
           padding: '10px 20px',
           borderRadius: '12px',
-          alignSelf: 'center'
+          alignSelf: 'center',
+          boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.4)'
         }}>
-          <Globe2 size={16} color="#818cf8" />
-          <span style={{ fontSize: '13px', color: '#cbd5e1' }}>Language:</span>
+          <Globe2 size={16} color="#FF2A85" />
+          <span style={{ fontSize: '13px', color: '#FACC15', fontWeight: 600 }}>Language:</span>
           <select
             value={language}
             onChange={(e) => setLanguage(e.target.value)}
             style={{
-              backgroundColor: '#1e293b',
-              color: '#f8fafc',
-              border: '1px solid #334155',
+              backgroundColor: '#0B3C2A',
+              color: '#FACC15',
+              border: '1px solid #FACC15',
               padding: '6px 12px',
               borderRadius: '8px',
               fontSize: '13px',
+              fontWeight: 600,
               cursor: 'pointer'
             }}
           >
@@ -209,10 +232,11 @@ export default function RagPage() {
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px' }}>
           <div style={{
             padding: '20px',
-            backgroundColor: '#0f172a',
+            backgroundColor: 'rgba(7, 44, 30, 0.95)',
+            backdropFilter: 'blur(12px)',
             borderRadius: '9999px',
-            border: '1px solid #1e293b',
-            boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.5)'
+            border: '2px solid #FF2A85',
+            boxShadow: '0 20px 30px rgba(0, 0, 0, 0.6)'
           }}>
             <MicButton state={micState} isListening={isListening} onClick={handleMicToggle} disabled={loading} />
           </div>
@@ -221,15 +245,17 @@ export default function RagPage() {
 
         {/* Custom Query Input */}
         <div style={{
-          backgroundColor: '#0f172a',
-          border: '1px solid #1e293b',
+          backgroundColor: 'rgba(7, 44, 30, 0.9)',
+          backdropFilter: 'blur(16px)',
+          border: '1px solid rgba(250, 204, 21, 0.4)',
           borderRadius: '16px',
           padding: '24px',
           display: 'flex',
           flexDirection: 'column',
-          gap: '16px'
+          gap: '16px',
+          boxShadow: '0 20px 30px rgba(0, 0, 0, 0.5)'
         }}>
-          <label htmlFor="custom-query-input" style={{ fontSize: '12px', fontWeight: 700, color: '#818cf8', display: 'flex', alignItems: 'center', gap: '8px', letterSpacing: '0.05em' }}>
+          <label htmlFor="custom-query-input" style={{ fontSize: '12px', fontWeight: 800, color: '#FF2A85', display: 'flex', alignItems: 'center', gap: '8px', letterSpacing: '0.05em' }}>
             <Search size={16} />
             <span>TYPE YOUR CUSTOM QUERY</span>
           </label>
@@ -245,9 +271,9 @@ export default function RagPage() {
                 width: '100%',
                 padding: '16px 56px 16px 16px',
                 borderRadius: '12px',
-                backgroundColor: '#020617',
-                border: '1px solid #334155',
-                color: '#f8fafc',
+                backgroundColor: 'rgba(11, 60, 42, 0.95)',
+                border: '1px solid rgba(250, 204, 21, 0.5)',
+                color: '#FFFFFF',
                 fontSize: '15px',
                 outline: 'none',
                 boxSizing: 'border-box'
@@ -265,8 +291,8 @@ export default function RagPage() {
                 transform: 'translateY(-50%)',
                 padding: '10px 14px',
                 borderRadius: '8px',
-                backgroundColor: '#4f46e5',
-                color: '#ffffff',
+                backgroundColor: '#FF2A85',
+                color: '#FFFFFF',
                 border: 'none',
                 cursor: loading || !query.trim() ? 'not-allowed' : 'pointer',
                 opacity: loading || !query.trim() ? 0.4 : 1,
@@ -282,20 +308,22 @@ export default function RagPage() {
 
         {/* Sample Queries */}
         <div style={{
-          backgroundColor: 'rgba(15, 23, 42, 0.5)',
-          border: '1px solid #1e293b',
+          backgroundColor: 'rgba(7, 44, 30, 0.9)',
+          backdropFilter: 'blur(16px)',
+          border: '1px solid rgba(250, 204, 21, 0.3)',
           borderRadius: '16px',
           padding: '20px',
           display: 'flex',
           flexDirection: 'column',
-          gap: '12px'
+          gap: '12px',
+          boxShadow: '0 20px 30px rgba(0, 0, 0, 0.4)'
         }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #1e293b', paddingBottom: '10px' }}>
-            <span style={{ fontSize: '12px', fontWeight: 700, color: '#94a3b8', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <HelpCircle size={15} color="#818cf8" />
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid rgba(250, 204, 21, 0.3)', paddingBottom: '10px' }}>
+            <span style={{ fontSize: '12px', fontWeight: 800, color: '#FACC15', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <HelpCircle size={15} color="#FF2A85" />
               <span>SAMPLE DATASET QUERIES</span>
             </span>
-            <span style={{ fontSize: '11px', color: '#64748b' }}>Click to test</span>
+            <span style={{ fontSize: '11px', color: '#E2E8F0' }}>Click to test</span>
           </div>
 
           <QueryChips onSelectQuery={(sampleText) => { setQuery(sampleText); handleSubmitQuery(sampleText); }} />
@@ -303,15 +331,15 @@ export default function RagPage() {
 
         {/* Error Notification */}
         {error && (
-          <div style={{ padding: '14px 18px', borderRadius: '10px', backgroundColor: 'rgba(244, 63, 94, 0.1)', border: '1px solid rgba(244, 63, 94, 0.2)', color: '#fda4af', fontSize: '13px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <AlertCircle size={16} color="#f43f5e" />
+          <div style={{ padding: '14px 18px', borderRadius: '10px', backgroundColor: 'rgba(255, 42, 133, 0.2)', border: '1px solid #FF2A85', color: '#FF2A85', fontSize: '13px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <AlertCircle size={16} color="#FF2A85" />
             <span>{error}</span>
           </div>
         )}
 
         {/* Results Panel */}
         {response && (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', paddingTop: '20px', borderTop: '1px solid #1e293b' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', paddingTop: '20px', borderTop: '1px solid rgba(250, 204, 21, 0.4)' }}>
             <AnswerCard response={response} />
             <LatencyMeter latency={response.latency} />
             <WhyThisAnswer response={response} />
